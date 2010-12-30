@@ -1,0 +1,3 @@
+[% FOREACH entry IN entries -%]
+<h2><a href="[% base %]entry/[% entry.id %]">[% entry.title %]</a></h2>
+[% END -%]

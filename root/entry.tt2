@@ -1,0 +1,5 @@
+[% SET title = entry.title %]
+<h2><a href="[% base %]entry/[% entry.id %]">[% entry.title %]</a></h2>
+<div class="content">
+[% body %]
+</div>

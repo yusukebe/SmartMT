@@ -1,0 +1,9 @@
+<html>
+<head>
+<meta name="viewport" content="width=400px;">
+<title>[% blog.name %][% IF title -%]
+ - [% title %][% END -%]</title>
+</head>
+<body>
+<div style="width:400px;">
+<h1><a href="[% base %]">[% blog.name %]</a></h1>
